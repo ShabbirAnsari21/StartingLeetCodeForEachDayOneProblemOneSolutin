@@ -7,7 +7,7 @@
 
 public class Program
 {
-    public static void Main(string[] args)
+    public static void Main1(string[] args)
     {
         string inp = "ABC";
         Console.WriteLine(inp);
@@ -37,7 +37,7 @@ public class Program
 
 public class Palidrom
 {
-    static void Main(string[] args)
+    static void Main2(string[] args)
     {
         string input = "step on no pets";
         Console.WriteLine(input);
