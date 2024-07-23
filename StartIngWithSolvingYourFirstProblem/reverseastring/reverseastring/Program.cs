@@ -5,13 +5,46 @@
 //input: hello world, output: dlrow olleh
 
 
+using reverseastring;
+
 public class Program
 {
+    // this is my main method call all the other methods from here of any class
+    #region
+
+    public static void Main(string[] args)
+    {
+        string input = "My Name Is Shabbir";
+        reversetheorderofstring obj = new reversetheorderofstring();
+
+        Console.WriteLine(obj.ReverseTheOrderOfStrings(input));
+
+        Console.WriteLine(input);
+        int[] array = { 1, 2, 3, 4, 5, 6, 7 };
+        Console.WriteLine(array);
+
+        //ReverseTheArray.ReverseTheArray1(array);
+        Console.WriteLine(string.Join(", ", array));
+
+        int[] array2 = { 1, 2, 5, 9, 11, 7, 6, 8, 13, 10, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 };
+        //ReverseTheArray.SwapTwoNo(5, 10);
+        ReverseTheArray.SortArrayAscending(array2);
+        //ReverseTheArray.SortArrayDescending(array2);
+        Console.WriteLine(string.Join(", ", array2));
+    }
+    #endregion
+
+
+
+
     public static void Main1(string[] args)
     {
         string inp = "ABC";
         Console.WriteLine(inp);
         Console.WriteLine(ReverseString(inp));
+
+        
+
     }
 
     public static string ReverseString(string inp)
