@@ -53,7 +53,7 @@ namespace OOPS
         #endregion
 
 
-        static void Main(string[] args)
+        static void MainN(string[] args)
         {
             ParentClass obj = new ParentClass();
             obj.Name();
